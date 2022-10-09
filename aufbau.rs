@@ -109,6 +109,7 @@ fn main() {
     let mut electrons: i32 = electrons.trim().parse().expect("Please type a number!");
 
     // Player struct contains Point struct and priority usize
+    // GITHUB CHANGE
     let player_vec = Player {
         point: { Point { l: 0, n: 0 } },
         priority: 0,
